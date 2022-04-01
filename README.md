@@ -3,9 +3,20 @@
 <h2 align="center">Questions</h2>
 
 ### Java
-1. What is the difference between string buffer and string builder?
+1. What is the difference between string buffer and string builder?  
+
 2. Where do the normal variables, objects store in memory?
+```
+  Stack in java is a section of memory which contains methods, local variables, and reference variables
+  And in Java, all objects are dynamically allocated on Heap
+```
+
 3. Is java 100% OOP language? Explain it.
+```
+  No, because it uses primitive datatypes like int, float, char, double. 
+  A pure OOP language can use nothing, but objects i.e everything must be a class. 
+```
+
 4. Why do we have different memories like heap memory, stack memory, dynamic memory?
 5. Why is string immutable? In which memory does it store data?
 6. How is the data stored in HashMap?
