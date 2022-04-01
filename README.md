@@ -38,7 +38,7 @@
 2. What are the design patterns used in hibernate framework?
 3. How to enable the second-level cache?
 
-## Database | SQL questions
+### Database | SQL questions
 1. What is View in POSTGRESQL | Materialized View in POSTGRESQL | Refresh Materialized view | SQL Views?
 2. t is difference between vertical partitioning vs horizontal partitioning in database?
 3. Hany types of indexes are there? What are they? When to use what? Is indexing DBA Job or Developer job?
