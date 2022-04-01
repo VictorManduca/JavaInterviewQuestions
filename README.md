@@ -4,6 +4,11 @@
 
 ### Java
 1. What is the difference between string buffer and string builder?  
+```
+  String buffer and StringBuilder both are mutable classes which can be used to do operation on 
+  string objects such as reverse of string, concating string and etc. We can modify string without 
+  creating a new object of the string. A string buffer is thread-safe whereas string builder is not thread-safe
+```
 
 2. Where do the normal variables, objects store in memory?
 ```
@@ -33,6 +38,13 @@
 
 ### Spring
 1. What is the difference between @Controller and @RestController?
+```
+  The main difference between the @restcontroller and the @controller is 
+  that the @restcontroller combination of the @controller and @ResponseBody annotation. 
+  RestController: RestController is used for making restful web services with the 
+  help of the @RestController annotation
+```
+
 2. What is the @Transaction in Spring?
 3. What is the use of @ControllerAdvice in Spring?
 4. What is the difference between spring MVC and Spring boot?
@@ -51,7 +63,13 @@
 
 ### Database | SQL
 1. What is View in POSTGRESQL | Materialized View in POSTGRESQL | Refresh Materialized view | SQL Views?
-2. t is difference between vertical partitioning vs horizontal partitioning in database?
+```
+  In a database, a view is the result set of a stored query on the data, which the 
+  database users can query just as they would in a persistent database collection object. 
+  This pre-established query command is kept in the database dictionary
+```
+
+2. What is the difference between vertical partitioning vs horizontal partitioning in database?
 3. Hany types of indexes are there? What are they? When to use what? Is indexing DBA Job or Developer job?
 4. What is the best way to modify the existing composite key in SQL?
 5. Consider if any update is taking time. What are the consequences that are causing performance issues? How can you avoid it?
