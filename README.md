@@ -7,7 +7,8 @@
 ```
   String buffer and StringBuilder both are mutable classes which can be used to do operation on 
   string objects such as reverse of string, concating string and etc. We can modify string without 
-  creating a new object of the string. A string buffer is thread-safe whereas string builder is not thread-safe
+  creating a new object of the string. 
+  A string buffer is thread-safe whereas string builder is not thread-safe
 ```
 
 2. Where do the normal variables, objects store in memory?
