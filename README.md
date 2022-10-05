@@ -24,7 +24,15 @@
 ```
 
 4. Why do we have different memories like heap memory, stack memory, dynamic memory?
+
 5. Why is string immutable? In which memory does it store data?
+```
+The String is immutable in Java because of the security, synchronization and concurrency, 
+caching, and class loading. The reason of making string final is to destroy the 
+immutability and to not allow others to extend it. The String objects are cached in 
+the String pool, and it makes the String immutable.
+```
+
 6. How is the data stored in HashMap?
 7. What is the difference between HashMap and HashTable?
 8. What is the difference between HashSet and TreeSet?
